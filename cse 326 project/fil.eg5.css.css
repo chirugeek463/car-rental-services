@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Hero Section Styles */
+
+.hero {
+    background-color: black;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-image {
+    width: 800%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.hero-image img {
+    transition: transform 0.5s ease-out;
+}
+
+.hero-image:hover img {
+    transform: scale(1.2);
+}
+
+/* Features Section Styles */
+
+.features {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 20px;
+}
+
+.features span {
+    font-weight: bold;
+    color: #337ab7;
+}
+
+/* Cars Section Styles */
+
+.cars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.cars ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cars li {
+    margin-bottom: 20px;
+}
+
+.cars img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.cars h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.cars p {
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Form Section Styles */
+
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form button[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+.form button[type="submit"]:hover {
+    background-color: #459cd7;
+}
